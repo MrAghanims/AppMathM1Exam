@@ -1,19 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BatSwing : MonoBehaviour
 {
-    public Transform bat;        
-    public float swingSpeed = 500f; 
-    public float swingAngle = 90f;  
+    public float swingAngle = 60f;
+    public float swingSpeed = 5f;
+    public float hitForce = 10f; // force applied to the ball
+    private Quaternion startRotation;
+    private Quaternion swingRotation;
     private bool swinging = false;
-    private Quaternion initialRotation;
 
     void Start()
     {
-        if (bat != null)
-            initialRotation = bat.localRotation;
+        startRotation = transform.localRotation;
+        swingRotation = Quaternion.Euler(0, swingAngle, 0) * startRotation;
     }
 
     void Update()
@@ -24,29 +24,43 @@ public class BatSwing : MonoBehaviour
         }
     }
 
-    private System.Collections.IEnumerator Swing()
+    private IEnumerator Swing()
     {
         swinging = true;
 
-        // Swing forward
-        float elapsed = 0f;
-        while (elapsed < 0.2f)
+        // Forward swing
+        float t = 0;
+        while (t < 1f)
         {
-            bat.localRotation = initialRotation * Quaternion.Euler(0, -swingAngle * (elapsed / 0.2f), 0);
-            elapsed += Time.deltaTime * swingSpeed / 100f;
+            t += Time.deltaTime * swingSpeed;
+            transform.localRotation = Quaternion.Slerp(startRotation, swingRotation, t);
+            Physics.SyncTransforms();
             yield return null;
         }
 
-        // Swing back
-        elapsed = 0f;
-        while (elapsed < 0.2f)
+        // Return swing
+        t = 0;
+        while (t < 1f)
         {
-            bat.localRotation = initialRotation * Quaternion.Euler(0, -swingAngle * (1 - (elapsed / 0.2f)), 0);
-            elapsed += Time.deltaTime * swingSpeed / 100f;
+            t += Time.deltaTime * swingSpeed;
+            transform.localRotation = Quaternion.Slerp(swingRotation, startRotation, t);
+            Physics.SyncTransforms();
             yield return null;
         }
 
-        bat.localRotation = initialRotation;
+
         swinging = false;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Ball"))
+        {
+            Rigidbody rb = other.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                // Apply force in the bat's forward direction
+                rb.AddForce(transform.forward * hitForce, ForceMode.Impulse);
+            }
+        }
     }
 }

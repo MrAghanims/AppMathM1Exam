@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|d:\\users\\sicarius\\documents\\github\\games\\appmathm1exam\\mathexam\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|d:\\users\\sicarius\\documents\\github\\games\\appmathm1exam\\mathexam\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\ball\\ballscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\ballscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\ball\\ballhitborder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\ballhitborder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\playerlives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlives.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\swing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC745C3F-C4A7-FA45-F575-AE2A00BBB223}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,11 +38,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BallHitBorder.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Ball\\BallHitBorder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\BallHitBorder.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Ball\\BallHitBorder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball\\BallHitBorder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T05:08:44.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BallScore.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Ball\\BallScore.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\BallScore.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Ball\\BallScore.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball\\BallScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T05:06:32.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T05:05:00.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerLives.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\PlayerLives.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLives.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\PlayerLives.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerLives.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T04:08:11.428Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T03:15:00.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Swing.cs",
+              "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Swing.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swing.cs",
+              "ToolTip": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\Swing.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swing.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T21:24:36.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\Users\\Sicarius\\Documents\\GitHub\\Games\\AppMathM1Exam\\MathExam\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
@@ -26,8 +123,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T19:27:22.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T19:27:22.521Z"
             }
           ]
         }
