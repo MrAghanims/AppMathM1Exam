@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ public class BatSwing : MonoBehaviour
     private Quaternion startRotation;
     private Quaternion swingRotation;
     private bool swinging = false;
-
+    private bool pause = false;
     void Start()
     {
         startRotation = transform.localRotation;
@@ -22,6 +23,7 @@ public class BatSwing : MonoBehaviour
         {
             StartCoroutine(Swing());
         }
+        
     }
 
     private IEnumerator Swing()
